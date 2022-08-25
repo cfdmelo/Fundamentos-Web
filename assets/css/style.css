@@ -1,37 +1,38 @@
 /* Sytle para index */
 
-.background{
-    background-image: url('https://wallpaperaccess.com/full/3076836.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.backgroundindice {
+    background-color: gainsboro;
+    padding: 10px;
+    display:inline;
 }
 
-.backgroundfim{
-   background-color:plum;
+.backgroundfim {
+    background-color: midnightblue;
 }
 
-.font{
+.font {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.tamanhotext{
+.tamanhotext {
     font-size: 16px;
 }
 
-tamanhosubtitulos{
+tamanhosubtitulos {
     font-size: 50px;
 }
 
-.margem{
+.margem {
     padding-right: 50px;
     padding-left: 50px;
+    
 }
 
-.margemindice{
+.margemindice {
     padding-right: 50px;
     padding-left: 70px;
 }
@@ -39,18 +40,16 @@ tamanhosubtitulos{
 .titulo {
     text-align: center;
     font-size: 30px;
-    background-color: rgb(180, 209, 235);
-
 }
 
-.texttitulo{
+.texttitulo {
     text-align: justify;
     text-indent: 5%;
     padding-right: 80px;
     padding-left: 50px;
 }
 
-.subtitulo1{
+.subtitulo1 {
     text-align: justify;
     text-indent: 5%;
     font-size: 20px;
@@ -59,23 +58,31 @@ tamanhosubtitulos{
     padding-left: 50px;
 }
 
-#menu li{
-   display: inline;
-   padding: 65px; 
+#menu-h ul {
+    background-color:midnightblue;
 }
-#menu li a{
 
-    text-decoration:none;
-    color: black;
+#menu-h ul li {
+    display: inline;
+    padding: 2px;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
     font-size: 20px;
-    
- }
- #menu li a:hover{
-    color:grey; 
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
 
- }
+}
 
-.container{
+#menu-h ul li a:hover {
+    background-color:darkgrey;
+
+}
+
+.container {
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -83,46 +90,48 @@ tamanhosubtitulos{
     font-size: 18px;
     text-align: justify;
     font-weight: normal;
-    text-indent: 3%;
 }
 
-    .p-30{
-        padding: 30px;
+.p-30 {
+    padding: 30px;
 
 }
 
-    .br-50{
-        border-radius: 50%;
+.br-50 {
+    border-radius: 50%;
 }
 
-.tm-social{
+.tm-social {
     width: 50px;
     height: 50px;
 }
 
-.right{
+.right {
     text-indent: 42.20%;
     text-align: center;
     text-align: justify;
 }
 
-.left{
+.left {
     text-align: left;
 }
 
-.table{
+.table {
     width: 50%;
     border-collapse: collapse;
-    margin: auto;    
+    margin: auto;
 }
 
- .td,th {
+.td,
+th {
     text-align: justify;
     padding: 2px;
-    text-align: center;    
+    text-align: center;
 }
 
-.tb, td, th{
+.tb,
+td,
+th {
     border: 1px solid black;
     padding: 2px;
 }
@@ -137,22 +146,35 @@ tamanhosubtitulos{
 
 /* Sytle para contato */
 
-.contato{
+.contato {
     text-align: center;
     font-size: 50px;
 }
-.m-l50{
+
+.m-l50 {
     margin-left: 50px;
 }
 
-.flo-right{
-    float:right;
+.flo-right {
+    float: right;
 }
 
-.m-l100{
+.m-l100 {
     margin-left: 100px;
 }
 
-.m-r100{
+.m-r100 {
     margin-right: 100px;
+}
+
+#nome {
+    width: 100%;
+}
+
+#sobrenome {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
 }
