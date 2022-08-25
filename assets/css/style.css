@@ -1,0 +1,180 @@
+/* Sytle para index */
+
+.backgroundindice {
+    background-color: gainsboro;
+    padding: 10px;
+    display:inline;
+}
+
+.backgroundfim {
+    background-color: midnightblue;
+}
+
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.center {
+    text-align: center;
+}
+
+.tamanhotext {
+    font-size: 16px;
+}
+
+tamanhosubtitulos {
+    font-size: 50px;
+}
+
+.margem {
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.margemindice {
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.texttitulo {
+    text-align: justify;
+    text-indent: 5%;
+    padding-right: 80px;
+    padding-left: 50px;
+}
+
+.subtitulo1 {
+    text-align: justify;
+    text-indent: 5%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#menu-h ul {
+    background-color:midnightblue;
+}
+
+#menu-h ul li {
+    display: inline;
+    padding: 2px;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+
+}
+
+#menu-h ul li a:hover {
+    background-color:darkgrey;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.p-30 {
+    padding: 30px;
+
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.right {
+    text-indent: 42.20%;
+    text-align: center;
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.td,
+th {
+    text-align: justify;
+    padding: 2px;
+    text-align: center;
+}
+
+.tb,
+td,
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.paizo {
+    text-align: justify;
+    text-indent: 7%;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Sytle para contato */
+
+.contato {
+    text-align: center;
+    font-size: 50px;
+}
+
+.m-l50 {
+    margin-left: 50px;
+}
+
+.flo-right {
+    float: right;
+}
+
+.m-l100 {
+    margin-left: 100px;
+}
+
+.m-r100 {
+    margin-right: 100px;
+}
+
+#nome {
+    width: 100%;
+}
+
+#sobrenome {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}

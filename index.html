@@ -5,100 +5,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Algoritmos </title>
+    <title> CamisCode </title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon (2).ico">
-
+    <link rel=" stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1> Introdução a Algoritmos em Java </h1>
-    <hr>
-    <strong> Ao estudarmos algoritmos, podemos aprender técnicas de análise que nos permitem comparar e contrastar
-        soluções baseadas unicamente em suas próprias características, não as características do programa ou computador
-        utilizado para implementá-los. </strong>
-    <hr>
-    <ul>
-        <h3> Antes de iniciar, veja o Menu da Página: </h3>
-        <a href="index.html">
-            <li> Home </li>
-        </a>
-        <a href="contato.html">
-            <li> Contato </li>
-        </a>
-    </ul>
-    <i> Let's Go </i> <b> aos conhecimentos! :) </b>
-    <br>
-    <h2> O que são Algoritmos?</h2>
-    <img width="350" height="240" src="assets/img/algoritmo.png" alt="Foto de Camila">
-    <br>
-    <p>Texto retirado da Wikipédia:</p>
-    <blockquote cite="https://pt.wikipedia.org/wiki/Algoritmo">
-        Um algoritmo não representa, necessariamente, um programa de computador, e sim os passos necessários para
-        realizar uma tarefa. Sua implementação pode ser feita por um computador, por outro tipo de autômato ou mesmo por
-        um ser humano. Diferentes algoritmos podem realizar a mesma tarefa usando um conjunto diferenciado de instruções
-        em mais ou menos tempo, espaço ou esforço do que outros. Tal diferença pode ser reflexo da complexidade
-        computacional aplicada, que depende de estruturas de dados adequadas ao algoritmo. Por exemplo, um algoritmo
-        para se vestir pode especificar que você vista primeiro as meias e os sapatos antes de vestir a calça enquanto
-        outro algoritmo especifica que você deve primeiro vestir a calça e depois as meias e os sapatos. Fica claro que
-        o primeiro algoritmo é mais difícil de executar que o segundo apesar de ambos levarem ao mesmo resultado.
-    </blockquote>
+    <div>
+    <div id="menu-h">
+        <ul>
+            <li>
+                <a class="font" href="index.html"> Home </a>
+            </li>
+            <li>
+                <a class="font" href="index.html"> Cursos </a>
+            </li>
+            <li>
+                <a class="font" href="index.html"> Fórum </a>
+            </li>
+            <li>
+                <a class="font" href="contato.html"> Contato </a>
+            </li>
+            <li>
+                <a class="font" href="index.html"> Entrar </a>
+            </li>
+            <li>
+                <a class="font" href="index.html"> Cadastrar </a>
+            </li>
+        </ul>
+    </div>
+    <div class="backgroundindice font margem container">
+        <ol class="tamanhotext margemindice">
+            <b>
+                <h2 class= "indice"> Índice </h2> 
+                <li> O que são Algoritmos? </li>
+                <li> Estrutura de Decisão Condicional </li>
+                <li> Estrutura de Decisão Condicional Simples </li>
+                <li> Estrutura de Decisão Condicional Composta </li>
+                <li> Estrutura de Decisão Condicional Encadeada ou Aninhada </li>
+                <li> Explicação em Vídeo </li>
+                <li> Resumindo </li>
+                <li> Para Praticar </li>
+            </b>
+            <br>
+        </ol>
+        <img src="assets/img/code.png" alt="Logo" style="width:550px;height:180px">
+    </div>
 
-    <h3> Estrutura de Decisão Condicional </h3>
-    <p> A estrutura tem como objetivo testar um conjunto de instruções e tomar uma decisão</p>
-    <h3> Estrutura de Decisão Condicional Simples </h3>
-    <p> Serve para escolher um comando para execução, com <mark> <b> um bloco de comando </b> </mark> caso a condição
-        for verdadeira </p>
-    <h3> Estrutura de Decisão Condicional Composta if/else</h3>
-    <p> Serve para escolher um comando para execução entre <mark> <b> dois blocos de comandos </b></mark> alternativos .
+    </div>
+    <h1 class="titulo"> Introdução a Algoritmos em Java </h1>
+    <p class="texttitulo font tamanhotext margem"> Ao estudarmos algoritmos, podemos aprender técnicas de análise que
+        nos permitem comparar e contrastar soluções baseadas unicamente em suas próprias características, não as
+        características do programa ou computador utilizado para implementá-los.
     </p>
-    <h3> Estrutura de Decisão Condicional Encadeada ou Aninhada </h3>
-    <p> Ao satisfazer uma condição entre dois blocos de comandos alternativos é avaliado uma estrutura de condição
-        composta desta condição satisfeita. </p>
+    <h3 class="subtitulo1 font"> O que são Algoritmos? </h3>
+    <div class="container margem">
+        <div>
+            <img class="br-50 p-30" src="assets/img/computador.jpg" alt="Foto de Camila"
+                style="width:300px;height:240px">
+        </div>
+        <div class="p-30 font tamanhotext ">
+            Um algoritmo não representa, necessariamente, um programa de computador, e sim os passos necessários para
+            realizar uma tarefa. Sua implementação pode ser feita por um computador, por outro tipo de autômato ou mesmo
+            por
+            um ser humano. Diferentes algoritmos podem realizar a mesma tarefa usando um conjunto diferenciado de
+            instruções
+            em mais ou menos tempo, espaço ou esforço do que outros. Tal diferença pode ser reflexo da complexidade
+            computacional aplicada, que depende de estruturas de dados adequadas ao algoritmo. Por exemplo, um algoritmo
+            para se vestir pode especificar que você vista primeiro as meias e os sapatos antes de vestir a calça
+            enquanto
+            outro algoritmo especifica que você deve primeiro vestir a calça e depois as meias e os sapatos. Fica claro
+            que
+            o primeiro algoritmo é mais difícil de executar que o segundo apesar de ambos levarem ao mesmo resultado.
+        </div>
+    </div>
+    <div class="font tamanhotext margem">
+        <h3> Estrutura de Decisão Condicional </h3>
+        <p> A estrutura tem como objetivo testar um conjunto de instruções e tomar uma decisão</p>
+        <h4> Estrutura de Decisão Condicional Simples </h4>
+        <p> Serve para escolher um comando para execução, com <b> um bloco de comando </b> caso a condição
+            for verdadeira </p>
+        <h4> Estrutura de Decisão Condicional Composta </h4>
+        <p> Serve para escolher um comando para execução entre <b> dois blocos de comandos </b> alternativos .
+        </p>
+        <h4> Estrutura de Decisão Condicional Encadeada ou Aninhada </h4>
+        <p> Ao satisfazer uma condição entre dois blocos de comandos alternativos é avaliado uma estrutura de condição
+            composta desta condição satisfeita. </p>
+    </div>
 
-    <h3> Explicação em Vídeo </h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1oEsU9k1n0M" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <h3 class="center font tamanhotext margem"> Explicação em Vídeo </h3>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1oEsU9k1n0M" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    </dive>
 
-    <h3> Resumindo </h3>
-    <table>
-        <tr>
-            <th>Códigos</th>
-            <th>Descrição</th>
-        </tr>
-        <tr>
-            <td>if (condição) { <br>
-                executa condição verdadeira } <br>
-                <br>
-            <td>Estrutura de Decisão Condicional Simples</td>
-        </tr>
-        <tr>
-            <td>if (condição) { <br>
-                executa condição verdadeira; <br>
-                }else <br>
-                executa condição falsa;
-                <br>
-                <br>
-            <td>Estrutura de Decisão Condicional Composta</td>
-        </tr>
-        <tr>
-            <td>if (condição) { <br>
-                executa condição verdadeira; <br>
-                }else (condição) { <br>
-                executa condição falsa; <br> }
-                if (condição) { <br>
-                executa condição verdadeira; <br>
-                else { <br>
-                executa condição falsa; <br>
-                <br>
-            <td>Estrutura de Decisão Condicional Encadeada ou Aninhada</td>
-        </tr>
-    </table>
-    <h3> Para Praticar </h3>
-    <p> Paiza.io é um editor de código online que permite a você criar aplicações para as mais diversas plataformas a
-        partir do seu navegador. Não é preciso instalar absolutamente nada no seu computador para utilizar a ferramenta,
-        sendo possível inclusive programar em mais de 20 linguagens diferentes, incluindo C++, Java, PHP e várias
-        outras. <a href="https://paiza.io/en"> www.paiza.io/en</a> </p>
+    <h3 class="center font tamanhotext margem"> Resumindo </h3>
+    <div class="font tb, td, th">
+        <table class="table">
+            <tr class="td,th">
+                <th>Códigos</th>
+                <th>Descrição</th>
+            </tr>
+            <tr class="td,th">
+                <td> if (condição){ <br>
+                    executar condição verdadeira; <br>
+                    } </td>
+                <td>Simples</td>
+            </tr>
+            <tr class="td,th">
+                <td>if (condição){ <br>
+                    executar condição verdadeira; <br>
+                    }else{ <br>
+                    executar condição falsa;<br>
+                    } </td>
+                <td>Composta</td>
+            </tr>
+            <tr class="td,th">
+                <td>if (condição){<br>
+                    executar condição verdadeira;<br>
+                    }else (condição){ <br>
+                    executar condição falsa; <br>
+                    }if (condição){ <br>
+                    executar condição verdadeira; <br>
+                    }else<br>
+                    executa condição falsa; <br>
+                    } </td>
+                <td>Aninhada</td>
+            </tr>
+        </table>
+    </div>
+    <h3 class="margem"> Para Praticar </h3>
+    <div class="paizo">
+        <p> Paiza.io é um editor de código online que permite a você criar aplicações para as mais diversas plataformas
+            a
+            partir do seu navegador. Não é preciso instalar absolutamente nada no seu computador para utilizar a
+            ferramenta,
+            sendo possível inclusive programar em mais de 20 linguagens diferentes, incluindo C++, Java, PHP e várias
+            outras. <a href="https://paiza.io/en"> www.paiza.io/en</a> </p>
+    </div>
+    <hr>
+    <div class="center backgroundfim">
+        <footer>
+
+            <div class="container">
+                <a href="https://github.com/cfdmelo" target="_blank">
+                    <img class="tm-social p-30" src="assets/img/github.png" alt="icon-github">
+                </a>
+                <a href="https://www.linkedin.com/in/camila-freire-de-melo-11602a219" target="_blank">
+                    <img class="tm-social p-30" src="assets/img/linkedin.png" alt="icon-linkedin">
+                </a>
+            </div>
+
+
+            <hr>
+
+            <p> © 2021 Camila Freire de Melo S.A CNPJ: 12.345.678/0001-23
+            </p>
+            <p> Cais do Apolo, 100, Recife Antigo - CEP 52100-000 - Recife - Brasil
+
+            </p>
+        </footer>
+    </div>
 </body>
 
 </html>
