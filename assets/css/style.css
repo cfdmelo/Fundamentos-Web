@@ -6,8 +6,8 @@
     display:inline;
 }
 
-.backgroundfim {
-    background-color: midnightblue;
+.background {
+    background-color: gainsboro;
 }
 
 .font {
@@ -146,9 +146,12 @@ th {
 
 /* Sytle para contato */
 
+
+
 .contato {
     text-align: center;
     font-size: 50px;
+    margin-top: 1%;
 }
 
 .m-l50 {
