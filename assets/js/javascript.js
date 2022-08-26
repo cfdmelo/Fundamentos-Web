@@ -1,4 +1,5 @@
 var nome = window.document.querySelector('#nome')
+var sobrenome = window.document.querySelector('#sobrenome')
 var email = window.document.querySelector('#email')
 var assunto = window.document.querySelector('#assunto')
 var nomeOk = false
